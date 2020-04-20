@@ -1,5 +1,5 @@
 
-SRP: Single Responsibility How To obtain a better design
+SRP: Single Responsibility Principle -  How To obtain a better design
 
 - Identify the responsabilities that are likely to change.
 	Checkout method is doing

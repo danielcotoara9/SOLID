@@ -1,5 +1,5 @@
 
-SRP: Single Responsibility Principle Problems
+SRP: Single Responsibility Principle - Problems
 
 - Cash transactions don't need credit card processings
 - Point of Sale Transactions don't need inventory reservations. 
