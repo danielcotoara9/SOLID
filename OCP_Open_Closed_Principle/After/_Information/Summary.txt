@@ -1,0 +1,9 @@
+
+OCP Open Closed Principle - Summary
+
+- When to apply OCP?
+	- If you know that there is likely some rules will change in the future
+
+- Important
+	- OCP adds complexity to desing so it will be harder to understand
+
