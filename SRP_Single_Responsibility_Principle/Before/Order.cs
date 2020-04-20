@@ -1,4 +1,5 @@
-﻿using SRP_Single_Responsibility_Principle.Common.Model;
+﻿using SRP_Single_Responsibility_Principle.Common;
+using SRP_Single_Responsibility_Principle.Common.Model;
 using SRP_Single_Responsibility_Principle.Common.Services;
 using System;
 using System.Net.Mail;
