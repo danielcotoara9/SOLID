@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid", "Solid\Solid.csproj", "{A0AA4707-47C1-4C91-83D4-D9BF6109B501}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solid", "Solid\Solid.csproj", "{A0AA4707-47C1-4C91-83D4-D9BF6109B501}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP_Single_Responsibility_Principle", "SRP_Single_Responsibility_Principle\SRP_Single_Responsibility_Principle.csproj", "{FCAC6461-81F0-4EEC-A141-1E30940EF981}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SRP_Single_Responsibility_Principle", "SRP_Single_Responsibility_Principle\SRP_Single_Responsibility_Principle.csproj", "{FCAC6461-81F0-4EEC-A141-1E30940EF981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCP_Open_Closed_Principle", "OCP_Open_Closed_Principle\OCP_Open_Closed_Principle.csproj", "{39D1F5A3-EFBB-416B-91FA-122B54888FBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FCAC6461-81F0-4EEC-A141-1E30940EF981}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCAC6461-81F0-4EEC-A141-1E30940EF981}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCAC6461-81F0-4EEC-A141-1E30940EF981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39D1F5A3-EFBB-416B-91FA-122B54888FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D1F5A3-EFBB-416B-91FA-122B54888FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D1F5A3-EFBB-416B-91FA-122B54888FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D1F5A3-EFBB-416B-91FA-122B54888FBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
