@@ -6,11 +6,16 @@ namespace UnitTests.OCP
 {
     public class CartShould
     {
-        private Cart _cart;
+        // use this for "Before" Code
+        //private OCP_Open_Closed_Principle.Before.Cart _cart;
+        //use this for "After" Code
+        private OCP_Open_Closed_Principle.After.Cart _cart;
 
         public CartShould()
         {
-            _cart = new Cart();
+            //_cart = new OCP_Open_Closed_Principle.Before.Cart();
+            _cart = new OCP_Open_Closed_Principle.After.Cart();
+
         }
 
         [Fact]
