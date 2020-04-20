@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SRP_Single_Responsibility_P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCP_Open_Closed_Principle", "OCP_Open_Closed_Principle\OCP_Open_Closed_Principle.csproj", "{39D1F5A3-EFBB-416B-91FA-122B54888FBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{CE5EEC47-8A35-4399-A294-08E372EC65BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{39D1F5A3-EFBB-416B-91FA-122B54888FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39D1F5A3-EFBB-416B-91FA-122B54888FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39D1F5A3-EFBB-416B-91FA-122B54888FBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE5EEC47-8A35-4399-A294-08E372EC65BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE5EEC47-8A35-4399-A294-08E372EC65BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE5EEC47-8A35-4399-A294-08E372EC65BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE5EEC47-8A35-4399-A294-08E372EC65BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
