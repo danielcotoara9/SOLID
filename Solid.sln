@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solid", "Solid\Solid.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SRP_Single_Responsibility_Principle", "SRP_Single_Responsibility_Principle\SRP_Single_Responsibility_Principle.csproj", "{FCAC6461-81F0-4EEC-A141-1E30940EF981}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCP_Open_Closed_Principle", "OCP_Open_Closed_Principle\OCP_Open_Closed_Principle.csproj", "{39D1F5A3-EFBB-416B-91FA-122B54888FBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OCP_Open_Closed_Principle", "OCP_Open_Closed_Principle\OCP_Open_Closed_Principle.csproj", "{39D1F5A3-EFBB-416B-91FA-122B54888FBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{CE5EEC47-8A35-4399-A294-08E372EC65BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{CE5EEC47-8A35-4399-A294-08E372EC65BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP_The_Liskov_Substitution_Principle", "LSP_The_Liskov_Substitution_Principle\LSP_The_Liskov_Substitution_Principle.csproj", "{ED5D8824-AC5E-4D3B-A7C0-304B52F96609}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CE5EEC47-8A35-4399-A294-08E372EC65BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE5EEC47-8A35-4399-A294-08E372EC65BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE5EEC47-8A35-4399-A294-08E372EC65BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED5D8824-AC5E-4D3B-A7C0-304B52F96609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5D8824-AC5E-4D3B-A7C0-304B52F96609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5D8824-AC5E-4D3B-A7C0-304B52F96609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5D8824-AC5E-4D3B-A7C0-304B52F96609}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

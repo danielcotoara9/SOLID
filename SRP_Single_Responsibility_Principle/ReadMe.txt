@@ -2,7 +2,7 @@
 SRP: Single Responsibility Principle
 
 - The Single Responsability Principles states that every object should have a single responsability,
-and that responsability should be entirely encapsulated by the class - Wikipedia
+	and that responsability should be entirely encapsulated by the class - Wikipedia
 
 - There should never be more than one reason for a class to change - Robert C. "Uncle Bob" Martin
 
