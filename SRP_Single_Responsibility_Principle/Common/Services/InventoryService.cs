@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Solid.Common.Services
+namespace SRP_Single_Responsibility_Principle.Common.Services
 {
     public class InventoryService
     {

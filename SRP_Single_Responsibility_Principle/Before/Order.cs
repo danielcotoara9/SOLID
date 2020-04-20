@@ -1,9 +1,9 @@
-﻿using Solid.Common.Model;
-using Solid.Common.Services;
+﻿using SRP_Single_Responsibility_Principle.Common.Model;
+using SRP_Single_Responsibility_Principle.Common.Services;
 using System;
 using System.Net.Mail;
 
-namespace Solid.Before
+namespace SRP_Single_Responsibility_Principle.Before
 {
     public class Order
     {

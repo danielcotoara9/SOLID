@@ -1,10 +1,10 @@
-﻿using Solid.After.Interfaces;
-using Solid.Common.Model;
-using Solid.Common.Services;
+﻿using SRP_Single_Responsibility_Principle.After.Interfaces;
+using SRP_Single_Responsibility_Principle.Common.Model;
+using SRP_Single_Responsibility_Principle.Common.Services;
 using System;
 using System.Collections.Generic;
 
-namespace Solid.After.Implementations
+namespace SRP_Single_Responsibility_Principle.After.Implementations
 {
     public class ReservationService : IReservationService
     {

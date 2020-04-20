@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Solid.Common.Model
+namespace SRP_Single_Responsibility_Principle.Common.Model
 {
     public class Cart
     {

@@ -1,7 +1,7 @@
-﻿using Solid.Common.Model;
+﻿using SRP_Single_Responsibility_Principle.Common.Model;
 using System.Collections.Generic;
 
-namespace Solid.After.Interfaces
+namespace SRP_Single_Responsibility_Principle.After.Interfaces
 {
     public interface IReservationService
     {

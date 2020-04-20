@@ -1,6 +1,6 @@
-﻿using Solid.Common.Model;
+﻿using SRP_Single_Responsibility_Principle.Common.Model;
 
-namespace Solid.After
+namespace SRP_Single_Responsibility_Principle.After
 {
     public abstract class Order
     {

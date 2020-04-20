@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Solid
+namespace SRP_Single_Responsibility_Principle.Common
 {
     public class Logger
     {
