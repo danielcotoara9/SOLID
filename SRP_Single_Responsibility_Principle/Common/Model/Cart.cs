@@ -6,7 +6,7 @@ namespace SRP_Single_Responsibility_Principle.Common.Model
     {
         public string CustomerEmail { get; internal set; }
         public decimal TotalAmount { get; set; }
-        public IList<Product> Items { get; internal set; }
+        public IList<OrderItem> Items { get; internal set; }
     }
 
 }

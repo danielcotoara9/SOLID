@@ -8,7 +8,7 @@ namespace SRP_Single_Responsibility_Principle.After.Implementations
 {
     public class ReservationService : IReservationService
     {
-        public void ReserveInventory(IList<Product> items)
+        public void ReserveInventory(IList<OrderItem> items)
         {
             foreach(var item in items)
             {
