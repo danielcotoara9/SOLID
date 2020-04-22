@@ -1,0 +1,14 @@
+
+ISP : Interface Segregations Principle - Code Smells
+
+1) Unimplemented interface methods
+
+// override is only from Child : Base 
+public override string ResetPassword(string userName)
+{
+	throw new NotImplementedException();
+}
+
+This is a smell that violates the LSP as well!
+
+
