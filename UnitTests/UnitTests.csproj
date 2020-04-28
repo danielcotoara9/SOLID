@@ -14,8 +14,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DIP_Dependency_Inversion_Principle\DIP_Dependency_Inversion_Principle.csproj" />
     <ProjectReference Include="..\LSP_The_Liskov_Substitution_Principle\LSP_The_Liskov_Substitution_Principle.csproj" />
     <ProjectReference Include="..\OCP_Open_Closed_Principle\OCP_Open_Closed_Principle.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DIP\After\" />
   </ItemGroup>
 
 </Project>
