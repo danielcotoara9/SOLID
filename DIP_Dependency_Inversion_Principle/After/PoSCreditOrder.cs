@@ -3,7 +3,8 @@ using DIP_Dependency_Inversion_Principle.Common.Model;
 
 namespace DIP_Dependency_Inversion_Principle.After
 {
-    // Point of Sales Order
+    // Point of Sales Order with Credit Card. What we need is passed to the ctor of the class
+    // This class is responsible to do the Checkout stuff in its own way without breaking anything from base
     public class PoSCreditOrder : Order
     {
         private PaymentDetails _paymentDetails;

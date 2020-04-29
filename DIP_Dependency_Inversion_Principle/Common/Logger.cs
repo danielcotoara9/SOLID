@@ -6,7 +6,7 @@ namespace DIP_Dependency_Inversion_Principle.Common
     {
         internal static void Log(string v, Exception ex)
         {
-            throw new NotImplementedException();
+            // code that logs something to a DataBase, ...
         }
     }
 }

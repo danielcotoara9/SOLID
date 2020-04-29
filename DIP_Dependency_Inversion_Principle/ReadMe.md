@@ -9,7 +9,7 @@ Would you solder a lamp directly to the electrical wiring in a wall? Please see 
 	- We see there that is a common interface, which is our plug(US format). Using this "common interface" we are able 
 		to plug in any number of different devices that implement that interface. That's what Dependency Inversion 
 		allows us to do as well.
-	  We can write our classes in such a way that their dependencies are exposed as interfaces, we are able to pass
+	- We can write our classes in such a way that their dependencies are exposed as interfaces, we are able to pass
 		implementations of those interfaces just as we're able to plug in any particular device we want into the wall socket
 
 -----------------------------------------------------------------------------------------------------------------------------

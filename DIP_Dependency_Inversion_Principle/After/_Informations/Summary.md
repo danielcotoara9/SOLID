@@ -1,5 +1,5 @@
 
-SRP: Dependency Inversion Principle - Summary
+DIP : Dependency Inversion Principle - Summary
 
 - Depend on abstractions
 - Don't force high-level modules to depend on low-level modules through direct instantiation or static method calls

@@ -2,19 +2,15 @@
 using OCP_Open_Closed_Principle.Common.Model;
 using Xunit;
 
-namespace UnitTests.OCP
+namespace UnitTests.OCP.Before
 {
     public class CartShould
     {
-        // use this for "Before" Code
-        //private OCP_Open_Closed_Principle.Before.Cart _cart;
-        //use this for "After" Code
-        private OCP_Open_Closed_Principle.After.Cart _cart;
+        private Cart _cart;
 
         public CartShould()
         {
-            //_cart = new OCP_Open_Closed_Principle.Before.Cart();
-            _cart = new OCP_Open_Closed_Principle.After.Cart();
+            _cart = new Cart();
 
         }
 

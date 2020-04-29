@@ -10,6 +10,7 @@ DIP: Dependency Inversion Principle - Problems
 	- PaymentGateWay
 	- Logger
 	- DateTime.Now
+
 - What results from these? =>
 	- Tight coupling
 	- Hard to change implementation details (OCP - violations)

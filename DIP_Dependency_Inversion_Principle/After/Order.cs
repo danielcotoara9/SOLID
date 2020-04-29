@@ -3,10 +3,10 @@
 namespace DIP_Dependency_Inversion_Principle.After
 {
     // High-level modules should not depend on low level modules. Both should depend on abstractions
-    // This base abstracted Order will be the parent to all the orders. 
+    // This abstracted base Order will be the parent to all the orders. 
     // -------
     // Abstraction should not depend on details. Details should depend on abstractions.
-    // Each child class will have his own details implemented !
+    // Each child class will have his own details implemented for Checkout method!
     public class Order
     {
         protected readonly Cart _cart;

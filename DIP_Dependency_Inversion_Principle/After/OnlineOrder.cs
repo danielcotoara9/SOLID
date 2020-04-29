@@ -7,7 +7,7 @@ namespace DIP_Dependency_Inversion_Principle.After
     // This class should decide what needs in his constructors in order to do the job
     // -------
     // Abstraction should not depend on details. Details should depend on abstractions.
-    // Depend on only by abstracted base Order + this class has its details
+    // This class is responsible to do the Checkout stuff in its own way without breaking anything from base
     public class OnlineOrder : Order
     {
         private readonly PaymentDetails _paymentDetails;

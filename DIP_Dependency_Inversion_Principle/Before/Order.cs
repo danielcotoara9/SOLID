@@ -25,7 +25,7 @@ namespace DIP_Dependency_Inversion_Principle.Before
             }
         }
 
-        // have dependencies
+        // have dependencies. Is the responsibility of this class to instantiate ? 
         public void NotifyCustomer(Cart cart)
         {
             var customerEmail = cart.CustomerEmail;
@@ -52,7 +52,7 @@ namespace DIP_Dependency_Inversion_Principle.Before
         }
 
 
-        // have dependencies
+        // have dependencies. Is the responsibility of this class to instantiate ? 
         public void ReserveInventory(Cart cart)
         {
             foreach(var item in cart.Items)
@@ -70,7 +70,7 @@ namespace DIP_Dependency_Inversion_Principle.Before
             }
         }
 
-        // have dependencies
+        // have dependencies. Is the responsibility of this class to instantiate ? 
         public void ChargeCard(PaymentDetails paymentDetails, Cart cart)
         {
             // dependency on PaymentGatway

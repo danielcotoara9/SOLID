@@ -35,8 +35,9 @@ DIP : Dependemcy Inversion Principle -  How To obtain a better design
 		- Requires no change to rest of class
 
 	- Cons
-		- Breaks method signature (if other class use this method it can be expensive)
-		- Can result in many parameters (design smell) - can be solved
-	This should be used only one method from a class required a parameter that other methods don't. Otherwise use construnctor injection
+		- Breaks method signature (if other classes use this method it can be expensive)
+		- Can result in many parameters (design smell - can be solved by move parameters to object) 
+
+	This should be used only if one method from a class required a parameter that other methods don't. Otherwise use construnctor injection
 
 -----------------------------------------------------------------------------------------------------------------------------

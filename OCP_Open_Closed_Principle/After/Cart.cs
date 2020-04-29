@@ -11,10 +11,11 @@ namespace OCP_Open_Closed_Principle.After
         private readonly List<OrderItem> _items;
         private IPricingCalculator _pricingCalculator;
 
+        // poor man's dependency injection. Is better explain in Depenedency Inversion Principle
         public Cart() : this(new PricingCalculator()) { }
 
-        // Strategy Pattern
-        public Cart(PricingCalculator pricingCalculator)
+        // Strategy Pattern, inject what is needed into class ctor
+        public Cart(IPricingCalculator pricingCalculator)
         {
             _pricingCalculator = pricingCalculator;
             _items = new List<OrderItem>();
@@ -30,7 +31,6 @@ namespace OCP_Open_Closed_Principle.After
         {
             _items.Add(orderItem);
         }
-
 
         // total price for all items in the cart
         public decimal TotalAmount()

@@ -24,7 +24,7 @@ namespace SRP_Single_Responsibility_Principle.After.Implementations
                 }
                 catch (Exception ex)
                 {
-                    throw new Exception("There was a problem with your card");
+                    throw new Exception("There was a problem when processing your card");
                 }
             }
         }

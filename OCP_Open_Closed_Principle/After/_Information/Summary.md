@@ -8,10 +8,11 @@ OCP Open Closed Principle - Summary
 - Important
 	- OCP adds complexity to desing so it will be harder to understand
 
-- Conformance with OCP yields flexibility, reusability and maitainability
+- Conformance with OCP yields flexibility, reusability and maintainability
+														   
 
 - Related Fundamentals
 	- Single Responsibility Principle
-	- Strategy Pattern (we utilize this here)
+	- Strategy Pattern 
 	- Template Method
 

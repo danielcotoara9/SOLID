@@ -18,7 +18,7 @@ namespace SRP_Single_Responsibility_Principle.Common.Services
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            // clear what is needed
         }
     }
 }

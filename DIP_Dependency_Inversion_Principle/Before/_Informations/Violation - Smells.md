@@ -4,7 +4,7 @@ DIP : Dependency Inversion Principle - Code Smells
 1) Use of new keyword
     foreach(var item in cart.Items)
     {
-        //instantiate classes rather than interfaces
+        // Instantiate classes rather than interfaces
         // Is the responsibility of that class to instantiate this ?
         var inventoryService = new InventoryService();
         inventoryService.Reserve(item.Sku, item.Quantity);

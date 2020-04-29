@@ -18,6 +18,6 @@ We can use : Please read Other informations file for more details
 What we will do:
 	- Extract dependencies into Interfaces
 	- Inject implementations of Interfaces into Order
-	- Reduce Order's responsabilities - SRP
+	- Reduce Order's responsibilities - SRP
 
 Extract all dependecncies and aply constructor injection

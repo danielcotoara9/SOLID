@@ -23,8 +23,9 @@ namespace UnitTests.LSP.Before
         [Fact]
         public void TwentyFor4X5RectangleFromSquare()
         {
-            // this test will not pass !!
+            // This test will not pass !!
             // The square is not substitutibable for a rectangle
+            // Base class Rectangle should be substitutable for child Square
             Rectangle rectangle = new Square
             {
                 Width = 4,

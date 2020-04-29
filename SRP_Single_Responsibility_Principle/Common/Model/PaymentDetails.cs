@@ -11,6 +11,6 @@
     public enum PaymentMethod : int
     {
         CreditCard,
-
+        Cash
     }
 }
