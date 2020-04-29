@@ -19,3 +19,5 @@ What we will do:
 	- Extract dependencies into Interfaces
 	- Inject implementations of Interfaces into Order
 	- Reduce Order's responsabilities - SRP
+
+Extract all dependecncies and aply constructor injection

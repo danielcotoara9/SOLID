@@ -1,14 +1,16 @@
-﻿ using SRP_Single_Responsibility_Principle.After.Interfaces;
-using SRP_Single_Responsibility_Principle.Common.Model;
-using SRP_Single_Responsibility_Principle.Common.Services;
+﻿using DIP_Dependency_Inversion_Principle.After.Interfaces;
+using DIP_Dependency_Inversion_Principle.Common.Model;
+using DIP_Dependency_Inversion_Principle.Common.Services;
 using System;
 
-namespace SRP_Single_Responsibility_Principle.After.Implementations
+namespace DIP_Dependency_Inversion_Principle.After.Implementation
 {
     public class PaymentProcessor : IPaymentProcessor
     {
-        public void ProcessCredCard(PaymentDetails paymentDetails, decimal totalAmount)
+        public decimal AmountPassed { get; set; } = 0;
+        public void ProcessCreditCard(PaymentDetails paymentDetails, decimal amount)
         {
+            // dependency on PaymentGatway
             using (var paymentGatway = new PaymentGatway())
             {
                 try
@@ -18,9 +20,10 @@ namespace SRP_Single_Responsibility_Principle.After.Implementations
                     paymentGatway.ExpiresMonth = paymentDetails.ExpiresMonth;
                     paymentGatway.ExpiresYear = paymentDetails.ExpiresYear;
                     paymentGatway.NameOnCard = paymentDetails.CardHoldName;
-                    paymentGatway.AmountToCharge = totalAmount;
+                    paymentGatway.AmountToCharge = amount;
 
                     paymentGatway.Charge();
+                    AmountPassed = amount;
                 }
                 catch (Exception ex)
                 {

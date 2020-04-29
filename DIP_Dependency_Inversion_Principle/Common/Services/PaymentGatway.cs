@@ -13,12 +13,12 @@ namespace DIP_Dependency_Inversion_Principle.Common.Services
 
         public void Charge()
         {
-            // Charge the card
+           // Charge the card;
         }
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

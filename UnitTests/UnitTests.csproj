@@ -19,8 +19,4 @@
     <ProjectReference Include="..\OCP_Open_Closed_Principle\OCP_Open_Closed_Principle.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="DIP\After\" />
-  </ItemGroup>
-
 </Project>

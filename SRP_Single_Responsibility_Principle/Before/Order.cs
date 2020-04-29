@@ -73,7 +73,7 @@ namespace SRP_Single_Responsibility_Principle.Before
                     paymentGatway.ExpiresMonth = paymentDetails.ExpiresMonth;
                     paymentGatway.ExpiresYear = paymentDetails.ExpiresYear;
                     paymentGatway.NameOnCard = paymentDetails.CardHoldName;
-                    paymentGatway.AmountToCharge = paymentDetails.TotalAmount;
+                    paymentGatway.AmountToCharge = cart.TotalAmount;
 
                     paymentGatway.Charge();
                 }

@@ -83,7 +83,7 @@ namespace DIP_Dependency_Inversion_Principle.Before
                     paymentGatway.ExpiresMonth = paymentDetails.ExpiresMonth;
                     paymentGatway.ExpiresYear = paymentDetails.ExpiresYear;
                     paymentGatway.NameOnCard = paymentDetails.CardHoldName;
-                    paymentGatway.AmountToCharge = paymentDetails.TotalAmount;
+                    paymentGatway.AmountToCharge = cart.TotalAmount;
 
                     paymentGatway.Charge();
                 }
