@@ -1,10 +1,12 @@
 # SOLID
 Solid principles in action
-- Examples of how we break and fix SOLID principles.
-    - Every example has "Before (code with problems)" and "After (fixes that respect principles)"
+
+- Examples of how we can break and fix our code using SOLID principles.
+    - Every example has "Before (code with problems)" and "After (fixes that respect principles)" folders.
+    - A principle can have multiples examples.
 - Every example has his own documentation:
-    - What is the problem
-    - How to obtain a better desing
+    - What is the problem.
+    - How to obtain a better desing.
   
   
  Prerequisites:
