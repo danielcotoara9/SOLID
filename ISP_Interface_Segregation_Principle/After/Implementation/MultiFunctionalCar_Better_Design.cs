@@ -19,7 +19,7 @@ namespace ISP_Interface_Segregation_Principle.After.Implementation
         public void Drive()
         {
             // code related to drive behavior
-            _car.Drive()
+            _car.Drive();
         }
 
         public void Fly()

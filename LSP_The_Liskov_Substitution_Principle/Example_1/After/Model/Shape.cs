@@ -1,4 +1,4 @@
-﻿namespace LSP_The_Liskov_Substitution_Principle.After.Model
+﻿namespace LSP_The_Liskov_Substitution_Principle.Example_1.After.Model
 {
     // this means that Rectangle and Square are childs of this => are the same type
     public abstract class Shape

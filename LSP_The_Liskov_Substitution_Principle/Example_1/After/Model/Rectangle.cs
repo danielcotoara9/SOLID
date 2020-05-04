@@ -1,6 +1,6 @@
-﻿namespace LSP_The_Liskov_Substitution_Principle.After.Model
+﻿namespace LSP_The_Liskov_Substitution_Principle.Example_1.After.Model
 {
-    public class Rectangle : Shape
+    public class Orange : Shape
     {
         public int Height { get; set; }
         public int Width { get; set; }
