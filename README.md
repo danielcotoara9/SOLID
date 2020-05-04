@@ -1,6 +1,6 @@
 # SOLID
 Solid principles in action
-- Examples of how we break and solve SOLID principles.
+- Examples of how we break and fix SOLID principles.
     - Every example has "Before (code with problems)" and "After (fixes that respect principles)"
 - Every example has his own documentation:
     - What is the problem
