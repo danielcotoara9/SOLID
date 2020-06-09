@@ -1,6 +1,6 @@
 ﻿namespace LSP_The_Liskov_Substitution_Principle.Example_1.Before.Model
 {
-    public class Orange : Lemon
+    public class Square : Rectangle
     {
         private int _height;
         private int _width;

@@ -5,7 +5,7 @@ namespace ISP_Interface_Segregation_Principle.Before.Implementation
 {
     public class Airplane : IVehicle
     {
-        // the Airplane class doesn't know how to drive so will since it's obligated to implement
+        // the Airplane class doesn't know how to drive. Since it's obligated to implement
         // everything from the interface will not do anything
         public void Drive()
         {
