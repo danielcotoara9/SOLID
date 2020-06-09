@@ -6,9 +6,9 @@ Solid principles in action
     - A principle can have multiples examples.
 - Every example has his own documentation:
     - What is the problem.
-    - How to obtain a better desing.
+    - How to obtain a better design.
   
   
  Prerequisites:
- - Visual Studion 2019
+ - Visual Studion 2019 || Visual Studio Code
  - .Net Core 3.1
